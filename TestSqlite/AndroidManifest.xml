@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.testsqlite"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.cytmxk.testsqlite"></instrumentation>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+    
+    <permission android:name="com.cytmxk.testsqlite.provider.SchoolContentProvider.READ"/>
+    <permission android:name="com.cytmxk.testsqlite.provider.SchoolContentProvider.WRITE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner"/>
+        <activity android:name=".ListStuActivity"
+            android:label="@string/lable_list_stu_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <provider android:name=".provider.SchoolContentProvider"
+            android:authorities="com.cytmxk.testsqlite.provider.SchoolContentProvider"
+            android:readPermission="com.cytmxk.testsqlite.provider.SchoolContentProvider.READ"
+            android:writePermission="com.cytmxk.testsqlite.provider.SchoolContentProvider.WRITE"
+            android:exported="true"/>
+    </application>
+
+</manifest>

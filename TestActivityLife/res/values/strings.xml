@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">TestActivityLife</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="show_activity_dialog">Show Activity Dialog</string>
+    <string name="show_dialog_title">提示</string>
+    <string name="show_dialog_message">晚上好</string>
+    <string name="show_dialog_positive">确定</string>
+    <string name="show_dialog_negative">取消</string>
+    <string name="first_activity_lable">FirstActivity</string>
+    <string name="second_activity_lable">SecondActivity</string>
+    <string name="second_activity_text">Welcome to SecondActivity</string>
+    <string name="three_activity_lable">ThreeActivity</string>
+    <string name="start_three_activity">Start ThreeActivity</string>
+    <string name="start_first_activity">Start FirstActivity</string>
+
+</resources>

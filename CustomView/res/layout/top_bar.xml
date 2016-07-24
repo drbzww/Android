@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cytmxk.customview.topbar.TopBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    custom:tb_leftTextColor="#FFFFFF"
+    custom:tb_leftBackground="@drawable/blue_button"
+    custom:tb_leftText="Back"
+    custom:tb_rightTextColor="#FFFFFF"
+    custom:tb_rightBackground="@drawable/blue_button"
+    custom:tb_rightText="More"
+    custom:tb_title="自定义标题"
+    custom:tb_titleTextSize="15sp"
+    custom:tb_titleTextColor="#123412" >
+    
+
+</com.cytmxk.customview.topbar.TopBar>

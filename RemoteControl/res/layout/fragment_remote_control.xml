@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl_fragment_remote_control"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="@drawable/shape_remote_background" >
+    <TextView android:id="@+id/tv_selected_channel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="50dp"
+        android:background="@drawable/window"
+        android:textColor="#ffffff"/>
+    <TextView android:id="@+id/tv_enter_channel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="20dp"
+        android:background="@drawable/bar"
+        android:textStyle="italic"/>
+    <include android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        layout="@layout/button_row"/>
+    <include android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        layout="@layout/button_row"/>
+    <include android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        layout="@layout/button_row"/>
+
+</TableLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">TestInterprocessCommunication</string>
+    <string name="lable_main_activity">MainActivity</string>
+    <string name="lable_one_activity">OneActivity</string>
+    <string name="lable_two_activity">TwoActivity</string>
+    <string name="lable_book_manager_activity">BookManagerActivity</string>
+    <string name="lable_tcp_client_activity">TCPClientActivity</string>
+    <string name="lable_volley_activity">VolleyActivity</string>
+    <string name="lable_async_http_activity">AsynchttpActivity</string>
+    <string name="lable_http_url_activity">HttpUrlActivity</string>
+    <string name="bt_start_one_activity">Start OneActivity</string>
+    <string name="bt_start_two_activity">Start TwoActivity</string>
+    <string name="bt_write_object">Write</string>
+    <string name="bt_read_object">Read</string>
+    <string name="bt_bind_service">Bind Service</string>
+    
+    <string name="bt_test_get">Test Get</string>
+    <string name="bt_test_post">Test Post</string>
+    
+    <string name="bt_translation_get">Get Translation</string>
+    <string name="bt_translation_post">Post Translation</string>
+
+</resources>

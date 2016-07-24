@@ -1,0 +1,1 @@
+1 包com.cytmxk.wallpapersettings.launcher中是直接利用Launcher中自带的壁纸设置代码。

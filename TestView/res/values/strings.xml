@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">TestView</string>
+    <string name="tv_show_ib_center">ImageButton Center</string>
+    <string name="tv_show_ib_center_crop">ImageButton Center Crop</string>
+    <string name="tv_show_ib_center_inside">ImageButton Center Inside</string>
+    <string name="tv_show_ib_fit_center">ImageButton Fit Center</string>
+    <string name="tv_show_ib_fit_start">ImageButton Fit Start</string>
+    <string name="tv_show_ib_fit_end">ImageButton Fit End</string>
+    <string name="tv_show_ib_fitxy">ImageButton FitXY</string>
+    <string name="tv_show_ib_matrix">ImageButton Matrix</string>
+    
+    <string name="tv_show_iv_center">ImageView Center</string>
+    <string name="tv_show_iv_center_crop">ImageView Center Crop</string>
+    <string name="tv_show_iv_center_inside">ImageView Center Inside</string>
+    <string name="tv_show_iv_fit_center">ImageView Fit Center</string>
+    <string name="tv_show_iv_fit_start">ImageView Fit Start</string>
+    <string name="tv_show_iv_fit_end">ImageView Fit End</string>
+    <string name="tv_show_iv_fitxy">ImageView FitXY</string>
+    <string name="tv_show_iv_matrix">ImageView Matrix</string>
+
+</resources>

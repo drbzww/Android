@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">TestActivity</string>
+    <string name="first_activity_lable">FirstActivity</string>
+    <string name="second_activity_lable">SecondActivity</string>
+    <string name="three_activity_lable">ThreeActivity</string>
+    <string name="four_activity_lable">FourActivity</string>
+    <string name="five_activity_lable">FiveActivity</string>
+    <string name="six_activity_lable">SixActivity</string>
+    <string name="seven_activity_lable">SevenActivity</string>
+    <string name="eight_activity_lable">EightActivity</string>
+    <string name="nine_activity_lable">NineActivity</string>
+    <string name="ten_activity_lable">TenActivity</string>
+    <string name="eleven_activity_lable">ElevenActivity</string>
+    <string name="twelve_activity_lable">TwelveActivity</string>
+    <string name="thirteen_activity_lable">ThirteenActivity</string>
+    <string name="fourteen_activity_lable">FourteenActivity</string>
+    <string name="fifteen_activity_lable">FifteenActivity</string>
+    <string name="sixteen_activity_lable">SixteenActivity</string>
+    <string name="go_to_self">Create FirstActivity</string>
+    <string name="go_to_five">Create FiveActivity</string>
+    <string name="go_to_nine">Create NineActivity</string>
+    <string name="go_to_thirteen">Create ThirteenActivity</string>
+    <string name="go_to_six_activity">Create SixActivity</string>
+    <string name="go_to_seven_activity">Create SevenActivity</string>
+    <string name="go_to_three_activity">Create ThreeActivity</string>
+    <string name="go_to_eleven_activity">Create ElevenActivity</string>
+    <string name="go_to_fifteen_activity">Create FifteenActivity</string>
+    <string name="go_to_fourteen_activity">Create FourteenActivity</string>
+    <string name="go_to_ten_activity">Create TenActivity</string>
+    <string name="go_to_other_first_activity">Create TestOtherActivity FirstActivity</string>
+    <string name="go_to_other_second_activity">Create TestOtherActivity SecondActivity</string>
+    <string name="go_to_other_three_activity">Create TestOtherActivity ThreeActivity</string>
+    <string name="go_to_other_Four_activity">Create TestOtherActivity FourActivity</string>
+
+</resources>

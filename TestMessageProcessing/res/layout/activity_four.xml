@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button android:id="@+id/first_girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_Beauty"/>
+    <Button android:id="@+id/second_girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_Beauty"/>
+    <Button android:id="@+id/three_girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/three_Beauty"/>
+    <Button android:id="@+id/four_girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/four_Beauty"/>
+    <Button android:id="@+id/five_girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/five_Beauty"/>
+
+</LinearLayout>

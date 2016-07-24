@@ -1,0 +1,91 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.testotherbroadcast"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+    
+    
+    <uses-permission android:name="com.android.permission.RECV_SHOW"/>
+    <permission android:name="com.android.permission.SEND_SHOW"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- <activity android:name="com.cytmxk.testotherbroadcast.FirstActivity"
+            android:label="@string/first_activity_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotherbroadcast.SecondActivity"
+            android:label="@string/second_activity_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.cytmxk.testotherbroadcast.SecondActivity$ShowBeautyReceiver">
+            <intent-filter>
+                <action android:name="com.cytmxk.testbroadcast.SHOW_ACTION"/>
+            </intent-filter>
+        </receiver> -->
+        <!-- <activity android:name="com.cytmxk.testotherbroadcast.ThreeActivity"
+            android:label="@string/three_activity_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+        </activity>
+        <receiver android:name="com.cytmxk.testotherbroadcast.ShowBeautyReceiver">
+            <intent-filter>
+                <action android:name="com.cytmxk.testbroadcast.SHOW_ACTION"/>
+            </intent-filter>
+        </receiver> -->
+        <!-- <activity android:name="com.cytmxk.testotherbroadcast.FourActivity"
+            android:label="@string/four_activity_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotherbroadcast.PermissionActivity1"
+            android:label="@string/permission_activity1_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotherbroadcast.PermissionActivity2"
+            android:label="@string/permission_activity2_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+        </activity> -->
+        <activity android:name="com.cytmxk.testotherbroadcast.PermissionActivity3"
+            android:label="@string/permission_activity3_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+        </activity>
+        <receiver android:name="com.cytmxk.testotherbroadcast.ShowBeautyReceiver"
+            android:permission="com.android.permission.SEND_SHOW">
+            <intent-filter>
+                <action android:name="com.cytmxk.testbroadcast.SHOW_ACTION"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

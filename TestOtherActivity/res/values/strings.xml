@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">TestOtherActivity</string>
+    <string name="first_activity_lable">FirstActivity</string>
+    <string name="second_activity_lable">SecondActivity</string>
+    <string name="three_activity_lable">ThreeActivity</string>
+    <string name="four_activity_lable">FourActivity</string>
+    <string name="go_to_eight_activity">Create TestActivity EightActivity</string>
+    <string name="go_to_twelve_activity">Create TestActivity TwelveActivity</string>
+    <string name="go_to_sixteen_activity">Create TestActivity SixteenActivity</string>
+    <string name="main_activity_lable">MainActivity</string>
+
+</resources>

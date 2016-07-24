@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_item_show_tasks"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/show_tasks"
+        android:showAsAction="ifRoom|withText"/>
+
+</menu>

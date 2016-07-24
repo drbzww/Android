@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.testotheractivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- <activity android:name="com.cytmxk.testotheractivity.FirstActivity"
+            android:label="@string/first_activity_lable"
+            android:launchMode="standard"
+            android:exported="true">
+            
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotheractivity.FirstActivity"
+            android:label="@string/first_activity_lable"
+            android:launchMode="standard"
+            android:exported="true"
+            android:allowTaskReparenting="true">
+            
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotheractivity.SecondActivity"
+            android:label="@string/second_activity_lable"
+            android:launchMode="singleTop"
+            android:exported="true">
+            
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotheractivity.SecondActivity"
+            android:label="@string/second_activity_lable"
+            android:launchMode="singleTop"
+            android:exported="true"
+            android:allowTaskReparenting="true">
+            
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testotheractivity.ThreeActivity"
+            android:label="@string/three_activity_lable"
+            android:launchMode="singleTask"
+            android:exported="true">
+            
+        </activity> -->
+        <activity android:name="com.cytmxk.testotheractivity.FourActivity"
+            android:label="@string/four_activity_lable"
+            android:launchMode="singleInstance"
+            android:exported="true">
+            
+        </activity>
+        <activity android:name="com.cytmxk.testotheractivity.MainActivity"
+            android:label="@string/main_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">TestOptimizationLayout</string>
+    <string name="activity_include_lable">IncudeActivity</string>
+    <string name="include_button">测试</string>
+
+</resources>

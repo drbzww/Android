@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.cytmxk.testcustomlayout.linearlayout.SagerealLinearLayoutButton
+        android:id="@+id/sagereal_linearlayout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:elevation="1dp"
+        android:orientation="horizontal"
+        android:background="@drawable/fab_container_bg" />
+
+</FrameLayout>

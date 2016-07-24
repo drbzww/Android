@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">TestService</string>
+    <string name="activity_first_lable">FirstActivity</string>
+    <string name="activity_second_lable">SecondActivity</string>
+    <string name="activity_three_lable">ThreeActivity</string>
+    <string name="activity_four_lable">FourActivity</string>
+    <string name="activity_five_lable">FiveActivity</string>
+    <string name="activity_six_lable">SixActivity</string>
+    <string name="activity_aidl_first_lable">FirstAIDLActivity</string>
+    <string name="activity_lable">当前Activity所在进程ID和线程ID如下:</string>
+    <string name="service_lable">被启动Service所在进程ID和线程ID如下:</string>
+    <string name="button_start_service">Start Service</string>
+    <string name="button_stop_service">Stop Service</string>
+    
+    <string name="bt_start_foreground_service">Start Forground Service</string>
+    <string name="bt_stop_foreground_service">Stop Forground Service</string>
+    <string name="bt_bind_foreground_service">Bind Forground Service</string>
+    <string name="bt_unbind_foreground_service">UnBind Forground Service</string>
+    <string name="ticker_text">Ticker</string>
+    <string name="notification_title">Notification Title</string>
+    <string name="notification_message">Notification Message</string>
+    <string name="activity_foreground_lable">ForegroundActivity</string>
+    <string name="activity_example_lable">ExampleActivity</string>
+
+</resources>

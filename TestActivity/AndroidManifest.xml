@@ -1,0 +1,344 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.testactivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- <activity android:name="com.cytmxk.testactivity.FirstActivity"
+            android:label="@string/first_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SecondActivity"
+            android:label="@string/second_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ThreeActivity"
+            android:label="@string/three_activity_lable"
+            android:launchMode="standard"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SecondActivity"
+            android:label="@string/second_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ThreeActivity"
+            android:label="@string/three_activity_lable"
+            android:launchMode="standard"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SecondActivity"
+            android:label="@string/second_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ThreeActivity"
+            android:label="@string/three_activity_lable"
+            android:launchMode="standard"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SecondActivity"
+            android:label="@string/second_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ThreeActivity"
+            android:label="@string/three_activity_lable"
+            android:launchMode="standard"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.FourActivity"
+            android:label="@string/four_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.FourActivity"
+            android:label="@string/four_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.FourActivity"
+            android:label="@string/four_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.FourActivity"
+            android:label="@string/four_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.FiveActivity"
+            android:label="@string/five_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SixActivity"
+            android:label="@string/six_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.SevenActivity"
+            android:label="@string/seven_activity_lable"
+            android:launchMode="singleTop"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SixActivity"
+            android:label="@string/six_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.SevenActivity"
+            android:label="@string/seven_activity_lable"
+            android:launchMode="singleTop"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SixActivity"
+            android:label="@string/six_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.SevenActivity"
+            android:label="@string/seven_activity_lable"
+            android:launchMode="singleTop"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.SixActivity"
+            android:label="@string/six_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.SevenActivity"
+            android:label="@string/seven_activity_lable"
+            android:launchMode="singleTop"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.EightActivity"
+            android:label="@string/eight_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.EightActivity"
+            android:label="@string/eight_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.EightActivity"
+            android:label="@string/eight_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.EightActivity"
+            android:label="@string/eight_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.NineActivity"
+            android:label="@string/nine_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.cytmxk.testactivity.ElevenActivity"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.cytmxk.testactivity.ElevenActivity"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.cytmxk.testactivity.ElevenActivity"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TenActivity"
+            android:label="@string/ten_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.ElevenActivity"
+            android:label="@string/eleven_activity_lable"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.cytmxk.testactivity.ElevenActivity"/> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TwelveActivity"
+            android:label="@string/twelve_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TwelveActivity"
+            android:label="@string/twelve_activity_lable"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TwelveActivity"
+            android:label="@string/twelve_activity_lable"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.TwelveActivity"
+            android:label="@string/twelve_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.ThirteenActivity"
+            android:label="@string/thirteen_activity_lable"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity> -->
+        <!-- <activity android:name="com.cytmxk.testactivity.FourteenActivity"
+            android:label="@string/fourteen_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testactivity.FifteenActivity"
+            android:label="@string/fifteen_activity_lable"
+            android:launchMode="singleInstance"/> -->
+        <activity android:name="com.cytmxk.testactivity.SixteenActivity"
+            android:label="@string/sixteen_activity_lable"
+            android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

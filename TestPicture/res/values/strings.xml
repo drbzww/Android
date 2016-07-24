@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">TestPicture</string>
+    <string name="tab_render_script_blur">Render Script Blur</string>
+    <string name="sagereal_tab_fast_blur">Fast Blur</string>
+    <string name="sagereal_tab_alpha_blur">Alpha Blur</string>
+    <string name="sagereal_tab_circle">Circle</string>
+
+</resources>

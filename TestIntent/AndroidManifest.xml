@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.testintent"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="20" />
+    <permission android:name="com.cytmxk.testintent.permission.RECV_SHOW"/>
+    <uses-permission android:name="com.cytmxk.testintent.permission.RECV_SHOW"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.cytmxk.testintent.FirstActivity"
+            android:label="@string/activity_first_lable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cytmxk.testintent.SecondActivity"
+            android:label="@string/activity_second_lable">
+            <intent-filter>
+                <action android:name="com.cytmxk.testintent.action.STRAT_SECONDACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.cytmxk.testintent.FirstBroadcastReceiver"
+            android:permission="com.cytmxk.testintent.permission.RECV_SHOW">
+            <intent-filter>
+                <action android:name="com.cytmxk.testintent.action.STRAT_FIRSTBROADCASTRECEIVER"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">TestString</string>
+    <string name="welcome_messages">Hello, %1$s! You have %2$d new messages.</string>
+    <string name="welcome">Welcome to &lt;i>Android&lt;/i>!</string>
+    <string name="welcome_messages_format_style">Hello, %1$s! You have &lt;b>%2$d new messages&lt;/b>.</string>
+    <string name="hello">Hello, </string>
+    <string name="world">World</string>
+
+</resources>

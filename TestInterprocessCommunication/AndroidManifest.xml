@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytmxk.testinterprocesscommunication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.cytmxk.testinterprocesscommunication.volley.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- <activity
+            android:name="com.cytmxk.testinterprocesscommunication.MainActivity"
+            android:label="@string/lable_main_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cytmxk.testinterprocesscommunication.OneActivity"
+            android:label="@string/lable_one_activity"
+            android:process=":remote" >
+        </activity>
+        <activity
+            android:name="com.cytmxk.testinterprocesscommunication.TwoActivity"
+            android:label="@string/lable_two_activity"
+            android:process="com.cytmxk.testinterprocesscommunication.remote" >
+        </activity> -->
+
+        <!-- <activity
+            android:name="com.cytmxk.testinterprocesscommunication.BookManagerActivity"
+            android:label="@string/lable_book_manager_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".BookManagerService"
+            android:process=":remote.BookManagerService" >
+        </service> -->
+        <!-- <service
+            android:name="com.cytmxk.testinterprocesscommunication.sockettcp.TCPServerService"
+            android:process=":remote" />
+
+        <activity
+            android:name="com.cytmxk.testinterprocesscommunication.sockettcp.TCPClientActivity"
+            android:label="@string/lable_tcp_client_activity"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
+        <!-- <activity
+            android:name="com.cytmxk.testinterprocesscommunication.volley.VolleyActivity"
+            android:label="@string/lable_volley_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
+        <!-- <activity
+            android:name="com.cytmxk.testinterprocesscommunication.asynchttp.AsynchttpActivity"
+            android:label="@string/lable_async_http_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
+        <activity
+            android:name="com.cytmxk.testinterprocesscommunication.httpurl.HttpUrlActivity"
+            android:label="@string/lable_http_url_activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

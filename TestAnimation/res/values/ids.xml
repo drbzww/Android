@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item type="id" name="menu_volte_conf_call" />
+    <item type="id" name="menu_ip_dial" />
+    <item type="id" name="menu_2s_pause" />
+    <item type="id" name="menu_add_wait" />
+    
+</resources>

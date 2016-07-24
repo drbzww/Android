@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Utils</string>
+    <string name="text_name">Name</string>
+    <string name="text_preference">preferences</string>
+    <string name="buuton_get">GET</string>
+    <string name="buuton_post">POST</string>
+
+</resources>

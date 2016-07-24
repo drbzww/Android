@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mytestviewattrs">
+        <attr name="textColor" format="color"/>
+        <attr name="hight" format="dimension"/>
+        <attr name="android:text" />
+    </declare-styleable>
+    
+    <attr name="hight2" format="dimension"/>
+    <attr name="textHintColor2" format="color"/>
+    <attr name="textHint2" format="string"/>
+</resources>

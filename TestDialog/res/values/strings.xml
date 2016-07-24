@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">TestDialog</string>
+    <string name="activity_select_dialog_lable">SelectDialogActivity</string>
+    <string name="dialog_date_title">Please select date:</string>
+    <string name="dialog_time_title">Please select time:</string>
+
+</resources>

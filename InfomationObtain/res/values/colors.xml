@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tab_ripple_color">@color/tab_accent_color</color>
+    <color name="tab_accent_color">#ffffff</color>
+    <color name="tab_selected_underline_color">@color/tab_accent_color</color>
+    <color name="actionbar_background_color">#30000000</color>
+    <color name="tab_text_color">#ffffff</color>
+    <color name="mediumorchid">#BA55D3</color> <!-- 中粉紫色 -->
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">TestIntent</string>
+    <string name="activity_first_lable">FirstActivity</string>
+    <string name="activity_second_lable">SecondActivity</string>
+    <string name="bt_start_second_activity">Start SecondActivity</string>
+    <string name="bt_send_broadcast">Send Broadcast</string>
+
+</resources>

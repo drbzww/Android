@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">TestMessageProcessing</string>
+    <string name="mainThreadActivity_lable">MainThreadActivity</string>
+    <string name="subThread1Activity_lable">SubThread1Activity</string>
+    <string name="threeActivity_lable">threeActivity</string>
+    <string name="fourActivity_lable">fourActivity</string>
+    <string name="ThreadLocalActivity_lable">ThreadLocalActivity</string>
+    <string name="first_Beauty">第一个美女</string>
+    <string name="second_Beauty">第二个美女</string>
+    <string name="three_Beauty">第三个美女</string>
+    <string name="four_Beauty">第四个美女</string>
+    <string name="five_Beauty">第五个美女</string>
+    <string name="select_Beauty">选择美女</string>
+    <string name="beauty_image_view">美女视图</string>
+    
+    <string name="tab_render_script_blur">RSBlur</string>
+    <string name="sagereal_tab_ltr_merge">LtrMerge</string>
+    <string name="sagereal_tab_rouned_corner">RounedCorner</string>
+    <string name="bt_stop_show">Stop</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.cytmxk.testcustomlayout.attrs.MyTextView1
+        xmlns:chenyang="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tv_test_attrs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kkk"
+        chenyang:hight="36dp"
+        chenyang:textColor="@color/skyblue" />
+
+    <com.cytmxk.testcustomlayout.attrs.MyTextView2
+        xmlns:chenyang="http://schemas.android.com/apk/res/com.cytmxk.testcustomlayout"
+        android:id="@+id/tv_test_attrs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        chenyang:textHint2="56hhhk"
+        chenyang:hight2="48dp"
+        chenyang:textHintColor2="@color/skyblue" />
+
+</LinearLayout>

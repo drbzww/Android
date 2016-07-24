@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">TestBroadcast</string>
+    <string name="first_activity_lable">FirstActivity</string>
+    <string name="second_activity_lable">SecondActivity</string>
+    <string name="three_activity_lable">ThreeActivity</string>
+    <string name="four_activity_lable">FourActivity</string>
+    <string name="five_activity_lable">FiveActivity</string>
+    <string name="six_activity_lable">SixActivity</string>
+    <string name="seven_activity_lable">SevenActivity</string>
+    <string name="eight_activity_lable">EightActivity</string>
+    <string name="permission_activity1_lable">PermissionActivity1</string>
+    <string name="permission_activity2_lable">PermissionActivity2</string>
+    <string name="permission_activity3_lable">PermissionActivity3</string>
+    <string name="show_menu">Show</string>
+    <string name="stop_menu">Stop</string>
+    <string name="beauty_image">Beauty Image</string>
+    <string name="show_beauty_button">Show Beauty</string>
+
+</resources>

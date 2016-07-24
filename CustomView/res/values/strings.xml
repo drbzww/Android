@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">CustomView</string>
+    <string name="picasso_app_name">RoundedPicassoView</string>
+    <string name="tab_rounded">RoundedView</string>
+    <string name="tab_text_view">TextView</string>
+    <string name="tab_shader_view">ShaderView</string>
+    <string name="tab_top_bar">TopBar</string>
+    <string name="tab_view">Custom View</string>
+    <string name="tab_view_group">Custom ViewGroup</string>
+    <string name="tab_view_holder">ViewHolder</string>
+    <string name="tab_pull_listview">Pull listview</string>
+    <string name="tab_chat_listview">Chat</string>
+    <string name="tab_focus_listview">Focus</string>
+    <string name="tab_scroll">Scroll</string>
+    <string name="show_my_text_view">MyTextView</string>
+    <string name="show_my_text_view1">MyTextView1 Android</string>
+    <string name="add_item">ADD</string>
+    <string name="no_data">No Data !</string>
+
+    <string-array name="action_list">
+        <item>Bitmap</item>
+        <item>Ovals</item>
+        <item>Select Corners</item>
+        <item>Picasso</item>
+        <item>Color</item>
+    </string-array>
+
+</resources>

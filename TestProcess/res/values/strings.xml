@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">TestProcess</string>
+    <string name="lable_activity_first">FirstActivity</string>
+    <string name="get_process_info_btn">获取所有应用进程信息</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="show_activity_dialog">Show Activity Dialog</string>
+    <string name="show_dialog_title">提示</string>
+    <string name="show_dialog_message">晚上好</string>
+    <string name="show_dialog_positive">确定</string>
+    <string name="show_dialog_negative">取消</string>
+    <string name="second_activity_text">Welcome to SecondActivity</string>
+    <string name="second_activity_lable">SecondActivity</string>
+    
+</resources>

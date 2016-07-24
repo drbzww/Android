@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">TestBaas</string>
+    <string name="bt_add_person">Add 10 Person</string>
+    <string name="bt_delete_person">Delete One Person</string>
+    <string name="tv_quary_name">Name : </string>
+    <string name="bt_quary_person">Quary Person</string>
+    <string name="tv_modify_address">Address : </string>
+    <string name="bt_modify_person">Modify Person</string>
+
+</resources>

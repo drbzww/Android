@@ -1,0 +1,5 @@
+INSERT INTO student(name,age) VALUES('陈阳',18);
+DELETE FROM student WHERE _id = 1;
+UPDATE student SET name = '皇帝' where name LIKE '陈%';
+SELECT name,age FROM student;
+SELECT name,age FROM student where _id IN(2);

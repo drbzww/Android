@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">InfomationObtain</string>
+    <string name="tab_system_info">Systeminfo</string>
+    <string name="tab_app_info">Appinfo</string>
+    <string name="tab_running_process_info">Processinfo</string>
+
+</resources>

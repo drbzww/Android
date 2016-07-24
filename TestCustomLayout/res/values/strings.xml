@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="app_name">TestCustomLayout</string>
+    <string name="toast_text_copied">Text copied</string>
+
+</resources>

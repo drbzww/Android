@@ -1,0 +1,62 @@
+1 概述
+android应用程序是基于消息驱动的，因此android应用程序的线程消息循环模型的学习是极其重要的。
+
+对于消息循环模型的使用可以分为两种情况
+1> 子线程向UI线程发送消息
+2> UI线程向子线程发送消息
+
+2 对于1中的1>情况，通过下面这个实例实现
+
+实现流程：通过Application实现共享handler，然后在SecondActivity中创建子线程SubThread1的实例，
+在SubThread1实例中得到FirstActivity中创建的handler并向主线程发送消息，
+从而控制FirstActivity中mBeautyImageView切换图片
+
+知识点 ：
+通过继承Application类来实现handler作为应用程序的全局变量。
+
+3 对于1中的2>情况，通过下面这个实例实现
+
+实现流程：首先在ThreeActivity创建一个匿名线程，在匿名线程的run方法中创建一个消息循环并且为消息循环
+绑定一个handler，然后通过Application实现共享handler。然后在FourActivity得到共享的handler并且使用
+该handler发送消息，继而在handler的handleMessage方法中处理得到的消息，并且通过Activity的runOnUiThread
+方法更行mBeautyImageView。
+
+知识点：
+可以在子线程中通过调用Activity的runOnUiThread方法来更新UI.
+
+4 对于上面中的两种情况，是我们日常开发经常用到的，可以详细概括为如下两种实用场景：
+1> 在开发Android应用程序中，有时候我们需要在应用程序中创建一些常驻的子线程来不定期地执行一些不需要
+与应用程序界面交互的计算型的任务。如果这些子线程具有消息循环，那么它们就能够常驻在应用程序中不定期的
+执行一些计算型任务了：当我们需要用这些子线程来执行任务时，就往这个子线程的消息队列中发送一个消息，然
+后就可以在子线程的消息循环中执行我们的计算型任务了。
+2> 在开发Android应用程序中，有时候我们又需要在应用程序中创建一些子线程来执行一些需要与应用程序界面
+进交互的计算型任务。典型的应用场景是当我们要从网上下载文件时，为了不使主线程被阻塞，我们通常创建一个
+子线程来负责下载任务，同时，在下载的过程，将下载进度以百分比的形式在应用程序的界面上显示出来，这样就
+既不会阻塞主线程的运行，又能获得良好的用户体验。
+
+由于上面的两个场景在日常开发经常被用到，所以Google为了方便开发人员开发应用程序，Android系统都为我们
+提供了完善的解决方案，前者可以通过使用HandlerThread类来实现，而后者可以使用AsyncTask类来实现，
+
+5 通过HandlerThread实现情景1>
+实现流程：通过Application实现共享handler，然后在FiveActivity中创建子线程mHandlerThread实例，
+在SixActivity中得到FiveActivity中创建的handler并向主线程发送消息，
+从而控制FiveActivity中mBeautyImageView切换图片
+
+6 通过AsyncTask实现情景2>
+实现流程：在SevenActivity中创建BeautyShow类继承AsyncTask，
+然后创建BeautyShow的实例。然后调用它的execute函数就可以在应用程序中启动一个子线程，并且通过调用
+这个BeautyShow类的doInBackground函数来执行计数任务。在计数的过程中，会通过调用publishProgress函数
+来将中间结果传递到onProgressUpdate函数中去，在onProgressUpdate函数中，就可以把中间结果显示在应用程
+序界面了。BeautyShow类的doInBackground函数退出循环后，就会将结果返回到onPostExecute函数中去，
+在onPostExecute函数，会把最终计数结果对应的图片显示在程序界面中。
+
+在这个例子中，我们需要注意的是：
+
+A. BeautyShow类继承于AsyncTask类，因此它也是一个异步任务类；
+
+B. BeautyShow类的doInBackground函数是在后台的子线程中运行的，这时候它不可以操作应用程序的界面；
+
+C. BeautyShow类的onProgressUpdate和onPostExecute两个函数是应用程序的主线程中执行，它们可以操作应用程序的界面。
+
+
+

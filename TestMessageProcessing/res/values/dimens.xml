@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tab_selected_underline_height">2dp</dimen>
+    <dimen name="tab_height">53dp</dimen>
+    <dimen name="tab_elevation">1dp</dimen>
+    <dimen name="tab_text_size">14sp</dimen>
+
+</resources>

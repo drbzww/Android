@@ -1,0 +1,36 @@
+1 概述
+           DialogFragment实例用来显示一个对话框窗口，漂浮在它的父Activity窗口的顶部。DialogFragment
+       实例包含一个Dialog对象，该Dialog对象基于Fragment的状态合适的显示。控制对话框（何时显示，隐藏，
+       关闭）应通过下面的API来完成，不应该直接调用Dialog对象的方法。
+
+           若要实现上面的对话框，应该重写DialogFragment类，并实现
+       onCreateView（LayoutInflater，ViewGroup中，包）方法用来提供了对话框的内容。或者，也可以覆盖
+       onCreateDialog（包）来创建一个完全自定义对话框，如AlertDialog，拥有自己的内容。
+
+           DialogFragment需要确保在发生事情的 Fragment 和 Dialog 的状态保持一致，要做到这一点，
+       DialogFragment就要关注Dialog的dismiss事件，当dismiss事件发生后DialogFragment要将移除自己的
+       状态。这就意味着应该使用 show(FragmentManager, String)或者
+       show(FragmentTransaction, String)添加一个DialogFragment实例到用户界面，
+       通过这些添加DialogFragment实例踪迹，在Dialog发生dismiss事件，DialogFragment实例就可以将自己
+       移除。
+       
+2 实例说明
+1> 对于通过重写onCreateView方法的方式来创建对话框，可以通过两种方式来显示对话框。
+方式1：通过如下代码将对话框的内容添加到托管Activity对应容器视图中，即将对话框的内容嵌入到托管Activity的视图层级结构中。
+fragment = createFragment();
+fm.beginTransaction().add(R.id.fragment_container, fragment)
+		.commit();
+方式2：通过如下代码将DialogFragment实例以对话框的形式显示
+fragment = createFragment();
+fragment.show(fm, "SingleFragmentActivity");
+
+2> 对于通过重写onCreateDialog方法的方式来创建对话框，有一种方式来显示对话框。
+方式1：通过如下代码将DialogFragment实例以对话框的形式显示
+fragment = createFragment();
+fragment.show(fm, "SingleFragmentActivity");
+
+2.1 对于1>的方式1：com.cytmxk.testdialog.oncreateview
+    对于1>的方式2：com.cytmxk.testdialog.oncreateview.twostage
+    
+    对于2>的方式1：com.cytmxk.testdialog.alertdialog
+                 com.cytmxk.testdialog.alertdialog.twostage

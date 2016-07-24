@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">MyLauncher</string>
+    <string name="activity_my_launcher_lable">MyLauncherActivity</string>
+    <string name="des_iv_icon_activity">Show icon activity</string>
+    <string name="des_iv_icon_task">Show icon task</string>
+    <string name="show_tasks">Show recent tasks</string>
+    <string name="activity_show_tasks_lable">ShowTasksActivity</string>
+
+</resources>

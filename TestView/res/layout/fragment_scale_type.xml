@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_center" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="center"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_center_crop" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_center_inside" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_fit_center" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_fit_start" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_fit_end" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_fitxy" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_ib_matrix" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:background="@null"
+                    android:scaleType="matrix"
+                    android:src="@drawable/beauty1" />
+
+                <ImageButton
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@null"
+                    android:scaleType="matrix"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_center" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="center"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="center"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_center_crop" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_center_inside" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_fit_center" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_fit_start" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_fit_end" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_fitxy" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tv_show_iv_matrix" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:scaleType="matrix"
+                    android:src="@drawable/beauty1" />
+
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="matrix"
+                    android:src="@drawable/beauty3" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</ScrollView>
